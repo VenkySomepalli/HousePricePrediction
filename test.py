@@ -69,7 +69,7 @@ def main():
     if st.button('Price'):
        result = prediction(CRIM, ZN, INDUS, CHAS, NOX, RM, AGE, DIS, RAD, TAX, PTRATIO, B, LSTAT)
        
-       st.success(f'The Predicted Price of the House is {result[0]:.0f} USD(millions)')
+       st.success(f'The Predicted Price of the House is {result[0]:.0f} USD(scale of $1000)')
     
      
 if __name__=='__main__': 
