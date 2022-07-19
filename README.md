@@ -25,7 +25,6 @@ Boston house prices dataset
 
     :Missing Attribute Values: None
 
-    :Creator: Harrison, D. and Rubinfeld, D.L.
 
 This is a copy of UCI ML housing dataset.
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
