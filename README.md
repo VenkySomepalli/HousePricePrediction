@@ -17,14 +17,3 @@ Data Overview:
 11. PTRATIO pupil-teacher ratio by town  
 12. Black 1000(Bk — 0.63)² where Bk is the proportion of blacks by town  
 13. LSTAT % lower status of the population  
-
-Read all the implementation details in PredictingHousingPricesusingRegressionAlgorithms.pdf  
-
-
-<img src="https://raw.githubusercontent.com/thenomaniqbal/LinearRegression-HousePricePrediction/master/plots/predictions_vs_ytest.png" width="100%">
-
-<img src="https://raw.githubusercontent.com/thenomaniqbal/LinearRegression-HousePricePrediction/master/plots/model_mse_scores.png" width="100%">
-
-<img src="https://raw.githubusercontent.com/thenomaniqbal/LinearRegression-HousePricePrediction/master/plots/feature_importance.png" width="100%">
-
-<img src="https://raw.githubusercontent.com/thenomaniqbal/LinearRegression-HousePricePrediction/master/plots/pairplot.png" width="100%">
