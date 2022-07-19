@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 # loading the trained model
 #df = pd.read_csv("/home/venky/Desktop/Datascience_360/Real_Project_costprediction/VS-Edtech_CourseCost_Model-Deployment/data.csv")
-pickle_in = open("C:\\Users\\venki\\OneDrive\\Desktop\\Datascience360\\HousePricePrediction-master\\final_model.pkl", 'rb') 
+pickle_in = open("final_model.pkl", 'rb') 
 model = pickle.load(pickle_in)
  
 @st.cache()
