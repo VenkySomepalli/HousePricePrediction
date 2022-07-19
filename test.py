@@ -27,7 +27,7 @@ def main():
     # front end elements of the web page 
     html_temp = """ 
     <div style ="background-color:blue;padding:13px"> 
-    <h1 style ="color:black;text-align:center;"> Price Prediction of Boston Houses </h1> 
+    <h1 style ="color:black;text-align:center;"> Boston: Price Prediction of Boston Houses </h1> 
     </div> 
     """
       
