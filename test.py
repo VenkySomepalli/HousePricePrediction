@@ -39,22 +39,22 @@ def main():
     CRIM = st.sidebar.slider('Crime Rate', 0.006, 90.0)
 
     #Subject_Name
-    ZN  = st.sidebar.slider("Zone:", 0.0, 100.0)
+    ZN  = st.sidebar.slider("Zone:", 1, 100)
 
     #Location
-    INDUS = st.sidebar.slider("Industries", 0.40, 30.0)
+    INDUS = st.sidebar.slider("Industries", 0, 30)
 
     ## Trainer
-    CHAS = st.sidebar.slider("Charles River", 0.0, 1.0)
-    NOX = st.sidebar.slider('Nitrix oxide conc.:', 0.30, 0.90 )
+    CHAS = st.sidebar.slider("Charles River", 0, 1)
+    NOX = st.sidebar.slider('Nitrix oxide conc.:', 0.10, 0.90 )
     ## Classes
     RM = st.sidebar.slider('Rooms:', 2, 9 )
     AGE = st.sidebar.slider('AGE:', 2, 100 )
 
     # Hours
-    DIS = st.sidebar.slider('Distance:',  )
+    DIS = st.sidebar.slider('Distance:', 1, 13 )
     # placements
-    RAD = st.sidebar.slider('Highways:', 1, 13 )
+    RAD = st.sidebar.slider('Highways:', 1, 24 )
     TAX = st.sidebar.slider('Tax:', 180, 750  )
     PTRATIO = st.sidebar.slider('Teacher Ratio:', 12, 22  )
     B = st.sidebar.slider('African-American:', 0, 400 )
