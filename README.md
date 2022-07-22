@@ -1,6 +1,7 @@
 Residential home prices across the United States over the next decade?.
 
-A linear regression analysis of house prices in USA with 11 features selected on MECE Framework
+A linear regression analysis of house prices in USA with 13 features selected on MECE Framework.
+
 Certainly multiple different approaches:
 
 Supply:
@@ -55,6 +56,16 @@ Boston house prices dataset
 This is a copy of UCI ML housing dataset.
 https://archive.ics.uci.edu/ml/machine-learning-databases/housing/
 
+Steps FOLLOWED:
+1. Data understanding
+2. Exploratory Data Analysis
+3. Train Test Split
+4. Model Comparison
+5. Hyper Parameter Selection
+6. Model Fitting
+7. Variance & Bias-trade off Check
+8. Error Analysis
+9. OLS Summary Study
 
 # LinearRegression-HousePricePrediction
 Boston housing price prediction using Regression Algorithms  
